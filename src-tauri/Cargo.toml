@@ -29,11 +29,11 @@ r2d2 = "0.8.10"
 r2d2_sqlite = "0.22.0"
 hex = "0.4.3"
 
-zcash-vote = {git = "https://github.com/hhanh00/zcash-vote.git", rev="f356534"}
+zcash-vote = {git = "https://github.com/hhanh00/zcash-vote.git", rev="d28e4b5"}
 orchard = "0.3.0"
 
 [patch.crates-io]
-orchard = {git = "https://github.com/hhanh00/orchard.git", rev="e7abba7"}
+orchard = {git = "https://github.com/hhanh00/orchard.git", rev="a2ec07c"}
 halo2_gadgets  = { git = "https://github.com/zcash/halo2.git", rev = "642924d614305d882cc122739c59144109f4bd3f" }
 halo2_proofs = { git = "https://github.com/zcash/halo2.git", rev = "642924d614305d882cc122739c59144109f4bd3f" }
 
