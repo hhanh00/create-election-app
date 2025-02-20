@@ -51,7 +51,7 @@ jobs:
       - name: Upload dmg artifact
         uses: actions/upload-artifact@v4
         with:
-          name: zcash-vote-app.dmg
+          name: zcash-vote-create.dmg
           path: src-tauri/target/release/bundle/dmg/*.dmg
       - name: Create Release
         if: startsWith(github.ref_name, 'v')
